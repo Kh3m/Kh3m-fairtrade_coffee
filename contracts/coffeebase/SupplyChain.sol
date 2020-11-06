@@ -1,6 +1,9 @@
 pragma solidity ^0.4.24;
+
+import "../coffeeaccesscontrol/FarmerRole.sol";
+
 // Define a contract 'Supplychain'
-contract SupplyChain {
+contract SupplyChain is FarmerRole {
 
   // Define 'owner'
   address owner;
@@ -153,12 +156,15 @@ contract SupplyChain {
   }
 
   // Define a function 'harvestItem' that allows a farmer to mark an item 'Harvested'
-  function harvestItem(uint _upc, address _originFarmerID, 
+  function harvestItem (uint _upc, address _originFarmerID, 
   string _originFarmName, 
   string _originFarmInformation, 
   string _originFarmLatitude, 
   string _originFarmLongitude, 
   string _productNotes) public 
+
+  onlyFarmer
+
   {
     // Add the new item as part of Harvest
     items[_upc].itemState = State.Harvested;
