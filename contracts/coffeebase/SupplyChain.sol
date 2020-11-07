@@ -1,9 +1,10 @@
 pragma solidity ^0.4.24;
 
 import "../coffeeaccesscontrol/FarmerRole.sol";
+import "../coffeecore/FarmerRole.sol";
 
 // Define a contract 'Supplychain'
-contract SupplyChain is FarmerRole {
+contract SupplyChain is FarmerRole, Ownable {
 
   // Define 'owner'
   address owner;

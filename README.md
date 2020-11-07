@@ -13,4 +13,11 @@ Truffle version number: 5.1.51
 truffle-hdwallet-provider: "^1.0.17"
  Use it to sign transactions for addresses derived from a 12 or 24 word mnemonic
 
- web3 version number: 
+ # To run the code
+ - npm install
+ - truffle compile
+ - truffle migrate --reset --rinkeby <Your rinkeby url>
+ - npm run dev
+
+ # To test
+ - npm run test
