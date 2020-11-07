@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 import "../coffeeaccesscontrol/FarmerRole.sol";
-import "../coffeecore/FarmerRole.sol";
+import "../coffeecore/Ownable.sol";
 
 // Define a contract 'Supplychain'
 contract SupplyChain is FarmerRole, Ownable {
@@ -10,10 +10,10 @@ contract SupplyChain is FarmerRole, Ownable {
   address owner;
 
   // Define a variable called 'upc' for Universal Product Code (UPC)
-  uint  upc;
+  uint upc;
 
   // Define a variable called 'sku' for Stock Keeping Unit (SKU)
-  uint  sku;
+  uint sku;
 
   // Define a public mapping 'items' that maps the UPC to an Item.
   mapping (uint => Item) items;
