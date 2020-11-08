@@ -208,10 +208,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1541,
-                        1542
+                        1551,
+                        1552
                       ],
-                      "referencedDeclaration": 1541,
+                      "referencedDeclaration": 1551,
                       "src": "308:7:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -334,10 +334,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1541,
-                        1542
+                        1551,
+                        1552
                       ],
-                      "referencedDeclaration": 1541,
+                      "referencedDeclaration": 1551,
                       "src": "344:7:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -650,10 +650,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1541,
-                        1542
+                        1551,
+                        1552
                       ],
-                      "referencedDeclaration": 1541,
+                      "referencedDeclaration": 1551,
                       "src": "544:7:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -760,10 +760,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1541,
-                        1542
+                        1551,
+                        1552
                       ],
-                      "referencedDeclaration": 1541,
+                      "referencedDeclaration": 1551,
                       "src": "580:7:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1076,10 +1076,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1541,
-                        1542
+                        1551,
+                        1552
                       ],
-                      "referencedDeclaration": 1541,
+                      "referencedDeclaration": 1551,
                       "src": "823:7:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1484,10 +1484,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1541,
-                        1542
+                        1551,
+                        1552
                       ],
-                      "referencedDeclaration": 1541,
+                      "referencedDeclaration": 1551,
                       "src": "308:7:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1610,10 +1610,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1541,
-                        1542
+                        1551,
+                        1552
                       ],
-                      "referencedDeclaration": 1541,
+                      "referencedDeclaration": 1551,
                       "src": "344:7:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1926,10 +1926,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1541,
-                        1542
+                        1551,
+                        1552
                       ],
-                      "referencedDeclaration": 1541,
+                      "referencedDeclaration": 1551,
                       "src": "544:7:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2036,10 +2036,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1541,
-                        1542
+                        1551,
+                        1552
                       ],
-                      "referencedDeclaration": 1541,
+                      "referencedDeclaration": 1551,
                       "src": "580:7:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2352,10 +2352,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1541,
-                        1542
+                        1551,
+                        1552
                       ],
-                      "referencedDeclaration": 1541,
+                      "referencedDeclaration": 1551,
                       "src": "823:7:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2566,7 +2566,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.1",
-  "updatedAt": "2020-11-05T21:06:30.443Z",
+  "updatedAt": "2020-11-08T14:27:37.643Z",
   "devdoc": {
     "methods": {},
     "title": "Roles"
